@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Feb  3 10:32:04 2023
+# Process ID: 9760
+# Current directory: F:/Lab2/Lab2/Lab2.runs/synth_1
+# Command line: vivado.exe -log Lab2_imp.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lab2_imp.tcl
+# Log file: F:/Lab2/Lab2/Lab2.runs/synth_1/Lab2_imp.vds
+# Journal file: F:/Lab2/Lab2/Lab2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Lab2_imp.tcl -notrace
+Command: synth_design -top Lab2_imp -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17196 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 432.605 ; gain = 97.832
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Lab2_imp' [F:/Lab2/Lab2_imp.v:23]
+ERROR: [Synth 8-439] module 'Lab2_top' not found [F:/Lab2/Lab2_imp.v:33]
+ERROR: [Synth 8-6156] failed synthesizing module 'Lab2_imp' [F:/Lab2/Lab2_imp.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 488.777 ; gain = 154.004
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri Feb  3 10:32:12 2023...

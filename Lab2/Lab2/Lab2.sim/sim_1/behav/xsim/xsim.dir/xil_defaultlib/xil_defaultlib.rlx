@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+F:/Lab2/Lab2/Lab2.sim/sim_1/behav/xsim/glbl.v,1544155482,verilog,,,,glbl,,,,,,,,
+F:/Lab2/Lab2_imp.v,1610960280,verilog,,,,Lab2_imp,,,,,,,,
+F:/Lab2/clkgen.v,1610423750,verilog,,F:/Lab2/seven_seg.v,,clkgen,,,,,,,,
+F:/Lab2/seven_seg.v,1610957684,verilog,,F:/Lab2/Lab2_imp.v,,seven_seg,,,,,,,,
